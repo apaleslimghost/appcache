@@ -1,7 +1,11 @@
 CACHE MANIFEST
 # v1
-#FALLBACK:
-#TODO
+
+CACHE:
+app.js
+
+FALLBACK:
+/ /offline.html
 
 NETWORK:
 *
