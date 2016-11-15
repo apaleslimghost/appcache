@@ -5,7 +5,7 @@ app.use(express.static('static'));
 
 app.get('/*', (req, res) => res.send(`
 <!doctype html>
-${req.url}
+<div id="path">${req.url}</div>
 <div id="date"></div>
 <iframe src="/manifest.html" style="width:0; height:0; visibility:collapse; display:none;"></iframe>
 <script src="/app.js"></script>
